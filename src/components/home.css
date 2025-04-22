@@ -1,0 +1,153 @@
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    transition: background-color 0.3s, color 0.3s;
+    background-image: url("./pink.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.dark {
+    background-color: #121212fa;
+    color: white;
+    background-image: url("./dark.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  
+  .app-container {
+    padding: 2rem;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .weather {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin: 1rem 0;
+  }
+  
+  .mood-options button {
+    margin: 0.25rem;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #eee;
+    transition: background-color 0.3s;
+  }
+  
+  .mood-options .selected {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 21px;
+    border: 2px solid black;
+    resize: vertical;
+    background-color: transparent;
+    box-shadow: 12px 14px 25px -16px
+  }
+  
+  button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    background-color: rgb(234, 132, 149);
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    box-shadow: 12px 14px 46px -12px;
+  }
+  
+  button:hover {
+    background-color: pink;
+  }
+  
+  .calendar-entry {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.9rem;
+   
+    
+  }
+  .react-calendar{
+    margin-left: 204px;
+    border-radius: 12px 12px;
+    background-color: transparent;
+    box-shadow: 12px 14px 52px -47px;
+  }
+  @media screen and (max-width: 577px) {
+    .react-calendar{
+        margin-left: auto;
+    }
+  }
+  .react-calendar__tile {
+    color:black;
+  }
+  .react-calendar__navigation button:enabled:hover, .react-calendar__navigation button:enabled:focus {
+    background-color: rgb(234, 132, 149);
+}
+select{
+    width:100px;
+    height: 32px;
+    border-radius: 12px 12px ;
+    margin-left: 23px;
+    background-color: transparent;
+}
+.react-calendar__navigation button{
+    background-color: pink;
+    color: black;
+}
+body.dark textarea,
+body.dark input {
+  background-color: #2a2a2a;
+  color: #f5f5f5;
+  border: 1px solid #555;
+}
+body.dark .react-calendar {
+    background-color: #1e1e1e;
+    color: #eee;
+    border: none;
+  }
+  
+  body.dark .react-calendar__tile {
+    background: #2b2b2b;
+    color: #ccc;
+  }
+  body.dark button{
+    background-color: #0000ff40;;
+  }
+  body.dark button:hover{
+    background-color: blue;
+  }
+  
+  body.dark .react-calendar__tile--active {
+    background: #007bff;
+    color: white;
+  }
+  
+  body.dark .react-calendar__month-view__weekdays {
+    background-color: #222;
+    color: #eee;
+  }
+  
+  
