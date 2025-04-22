@@ -1,18 +1,18 @@
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
- <h1>📔 Mood & Weather Journal App</h1>
+ <h1> Mood & Weather Journal App</h1>
   <p>A simple React-based application to track your daily mood and local weather snapshot, view past entries via a calendar, and export your logs.</p>
 
   <h2>✨ Features</h2>
   <ul>
-    <li>🌤️ Weather snapshot using WeatherAPI</li>
-    <li>😄 Mood selection with emoji buttons</li>
-    <li>📝 Journal note input</li>
-    <li>🗓️ Calendar view with mood & weather icons</li>
-    <li>🌗 Light/Dark theme toggle</li>
-    <li>🔍 Filter past entries by mood</li>
-    <li>📤 Export journal to CSV or PDF</li>
+    <li> Weather snapshot using WeatherAPI</li>
+    <li> Mood selection with emoji buttons</li>
+    <li> Journal note input</li>
+    <li> Calendar view with mood & weather icons</li>
+    <li> Light/Dark theme toggle</li>
+    <li> Filter past entries by mood</li>
+    <li> Export journal to CSV or PDF</li>
   </ul>
 
   <h2>🛠️ Technologies</h2>
@@ -23,35 +23,30 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
     <li>JavaScript, HTML, CSS</li>
   </ul>
 
-  <h2>📦 Installation</h2>
+  <h2> Installation</h2>
   <pre><code>git clone https://github.com/your-username/mood-weather-journal.git
 cd mood-weather-journal
 npm install
 npm start</code></pre>
 
-  <h2>🔑 Weather API Key</h2>
+  <h2> Weather API Key</h2>
   <p>Register at <a href="https://www.weatherapi.com/">weatherapi.com</a> and get your API key. Replace the key inside <code>Home.js</code>:</p>
   <pre><code>const apiKey = 'YOUR_API_KEY';</code></pre>
 
-  <h2>📂 File Structure</h2>
+  <h2> File Structure</h2>
   <ul>
     <li><code>Home.js</code> – Main component for input, calendar, theme toggle</li>
     <li><code>App.css</code> – Theming and styling</li>
     <li><code>Calendar</code> – Calendar view powered by <code>react-calendar</code></li>
   </ul>
 
-  <h2>📄 Exporting</h2>
+  <h2> Exporting</h2>
   <p>You can export past journal entries in <strong>CSV</strong> or <strong>PDF</strong> formats from the app UI.</p>
 
-  <h2>💡 Media Query Example</h2>
-  <pre><code>@media (max-width: 600px) {
-  body {
-    font-size: 14px;
-  }
-}</code></pre>
+  
 
-  <h2>🧑‍💻 Author</h2>
-  <p>Made with ❤️ by Sunita</p>
+  <h2> Author</h2>
+  <p>Made with by Sunita</p>
 
 ## Available Scripts
 

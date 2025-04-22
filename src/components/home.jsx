@@ -40,7 +40,7 @@ const Home = () => {
   };
 
   const fetchWeather = async (lat, lon) => {
-    const apiKey = 'a0b4fde686e84079b06110650252204'; // Make sure your key is correct
+    const apiKey = "a0b4fde686e84079b06110650252204"; 
     const response = await fetch(
       `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${lat},${lon}`
     );
